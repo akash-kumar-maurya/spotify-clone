@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assests/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" id="nav-home">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option" id="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option">
+              <img src="./assests/library_icon.png" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <section class="lib-box">
+            <div class="paragraph">
+              <span class="p1">Create your first playlist</span>
+              <span class="p2">It's easy, we'll help you</span>
+            </div>
+            <div>
+              <button class="btn">Create playlist</button>
+            </div>
+          </section>
+          <section class="lib-box">
+            <div class="paragraph">
+              <span class="p1">Let's find some podcasts to follow</span>
+              <span class="p2">We'll keep you updated on new episodes</span>
+            </div>
+            <div>
+              <button class="btn">Browse podcasts</button>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-left">
+            <img class="left" src="./assests/backward_icon.png" />
+            <img class="hide right" src="./assests/forward_icon.png" />
+          </div>
+          <div class="sticky-nav-right">
+            <button class="btn nav-item hide">Explore Premium</button>
+            <button class="btn nav-item dark-btn">
+              <i class="fa-regular fa-circle-down"></i>Install App
+            </button>
+            <i id="user" class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img1.jpeg"
+              alt="image"
+            />
+            <!-- <p class="card-title">Top Songs Global</p> -->
+            <div class="card-info">
+              Your daily updates of the most played tracks right now - Global.
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img2.jpeg"
+              alt="image"
+            />
+            <!-- <p class="card-title">Top Songs India</p> -->
+            <div class="card-info">
+              Your daily updates of the most played tracks right now - India.
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img3.jpeg"
+              alt="image"
+            />
+            <!-- <p class="card-title">Top 50 Global</p> -->
+            <div class="card-info">
+              Your daily updates of the most played tracks right now - Global.
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img4.jpeg"
+              alt="image"
+            />
+            <!-- <p class="card-title">Top 50 India</p> -->
+            <div class="card-info">
+              Your daily updates of the most played tracks right now - India.
+            </div>
+          </div>
+        </div>
+
+        <h2>Trending Songs</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img5.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Mahiye Jinna Sohna</p>
+            <div class="card-info">Darshan Raval</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img6.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Mere Pass Tum ho</p>
+            <div class="card-info">Rahat Fateh Ali Khan</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img7.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Alter Ego Naa Ready</p>
+            <div class="card-info">Anandh Dharman</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img8.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Sanak</p>
+            <div class="card-info">Badshah, Lakhwinder Wadali, Lucky Noor</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img11.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Barbaad</p>
+            <div class="card-info">The Rish, Jubin Nautiyal</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img9.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Lagdi Lahore Di</p>
+            <div class="card-info">Guru Randhawa, Tulsi Kumar</div>
+          </div>
+          
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img12.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Saiyaara</p>
+            <div class="card-info">
+              Tanishk Bagchi, Faheem Abdullah, Arslan Nizami
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img13.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Samjho Na</p>
+            <div class="card-info">
+              Jubin Nautiyal, Suvarna Tiwari, Manoj Muntashir
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img14.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Awarapan 2</p>
+            <div class="card-info">Rashmi Baid</div>
+          </div>
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img10.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Lahore</p>
+            <div class="card-info">Guru Randhawa</div>
+          </div>
+        </div>
+
+        <h2>Popular Albums and singles</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img15.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Lut Gye</p>
+            <div class="card-info">
+              Jubin Nautiyal, Tanishk Bagchi, Manoj Muntashir
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img16.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Tum Hi Aana</p>
+            <div class="card-info">
+              Payal Dev, Jubin Nautiyal, Kunaal Vermaa
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              src="./assests/card-img17.jpeg"
+              alt="image"
+            />
+            <p class="card-title">Aashiqui 2</p>
+            <div class="card-info">Mithoon, Ankit Tiwari, Jeet Gannguli</div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="./assests/player_icon1.png" class="player-control-icon" />
+            <img src="./assests/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assests/player_icon3.png"
+              class="player-control-icon"
+              style="opacity: 1; height: 1.75rem"
+            />
+            <img src="./assests/player_icon4.png" class="player-control-icon" />
+            <img src="./assests/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="1"
+            />
+            <span class="current-time">03:33</span>
+          </div>
+        </div>
+        <div class="controls"></div>
+      </div>
+    </div>
+  </body>
+</html>
